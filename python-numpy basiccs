@@ -1,0 +1,18 @@
+import numpy as np
+a=np.array([1,2,3,4,5])
+print(a)
+print(type(a))
+a.shape
+b=np.array([[1,2,3,4,5],[5,6,7,8,9]])
+b.shape 
+b.T
+#np.dot(b,b.T)
+np.random.randint(60,100,10)
+matrix=np.random.randint(50,100,(5,5))
+print(matrix)
+np.max(matrix)
+np.min(matrix)
+a=np.array([1,2,-3,4])
+np.argmin(a)
+
+
